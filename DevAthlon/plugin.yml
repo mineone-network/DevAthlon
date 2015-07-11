@@ -1,0 +1,11 @@
+name: Competitive
+author: Mauricius17
+version: Alpha 1.0
+
+main: de.mauricius17.devathlon.competitive.system.Competitive
+
+commands:
+  set:
+  start:
+  stats:
+  money:
