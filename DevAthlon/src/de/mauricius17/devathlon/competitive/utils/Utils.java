@@ -14,7 +14,7 @@ import de.mauricius17.devathlon.competitive.system.GameState;
 
 public class Utils {
 	
-	private static String prefix = "§8[§5Competitive§8] ", console = "[Competitive] Nur ein Spieler kann diese Aktion ausfuehren!", nopermission = "§cDu hast keine Operator Rechte!";
+	private static String prefix = "Â§8[Â§5CompetitiveÂ§8] ", console = "[Competitive] Nur ein Spieler kann diese Aktion ausfuehren!", nopermission = "Â§cDu hast keine Operator Rechte!";
 	
 	private static List<UUID> ingamePlayers = new ArrayList<>();
 	private static GameState gameState = GameState.LOBBY;
@@ -22,11 +22,11 @@ public class Utils {
 	
 	private static int lobbyTime = 60, lobbyCountdown;
 	private static int warmUpTime = 5, warmUpCountdown;
-	private static int graceTime = 10;
+	private static int graceTime = 120;
 	private static int ingameCountdown;
 	private static int afterTime = 30, afterTimeCountdown;
 	
-	private static int minPlayers = 2, maxPlayers = 12;
+	private static int minPlayers = 4, maxPlayers = 12;
 	
 	private static File locationFile = new File("plugins/Competitive", "location.yml");
 	private static FileConfiguration locations = YamlConfiguration.loadConfiguration(locationFile);
