@@ -22,7 +22,7 @@ public class EnchantmentListener implements Listener {
 			return;
 		}
 		
-		e.setCancelled(true);
+		e.setCancelled(false);
 	}
 
 	@EventHandler
@@ -37,6 +37,6 @@ public class EnchantmentListener implements Listener {
 			return;
 		}
 		
-		e.setCancelled(true);
+		e.setCancelled(false);
 	}
 }
